@@ -121,17 +121,17 @@ navigation: widget
 # are visible as buttons there if the corresponding *show* keys
 # are set to "true" (they can also be overridden).
 strings:
-    productName:         "@{NAME}"
-    shortProductName:    openSUSE
+    productName:         Zigzag Linux
+    shortProductName:    Zigzag
     version:             "@{VERSION_ID}"
     shortVersion:        "@{VERSION_ID}"
-    versionedName:       "@{PRETTY_NAME}"
-    shortVersionedName:  "@{PRETTY_NAME}"
-    bootloaderEntryName: openSUSE
-    productUrl:          "@{HOME_URL}"
-    supportUrl:          "@{BUG_REPORT_URL}"
-    knownIssuesUrl:      "@{BUG_REPORT_URL}"
-    releaseNotesUrl:     "@{HOME_URL}"
+    versionedName:       "Zigzag Linux @{VERSION_ID}"
+    shortVersionedName:  "Zigzag Linux @{VERSION_ID}"
+    bootloaderEntryName: Zigzag
+    productUrl:          https://github.com/zigzag-linux/
+    supportUrl:          https://github.com/zigzag-linux/
+    knownIssuesUrl:      https://github.com/zigzag-linux/
+    releaseNotesUrl:     https://github.com/zigzag-linux/
     donateUrl:           https://kde.org/community/donations/index.php
 
 # These images are loaded from the branding module directory.
@@ -183,7 +183,7 @@ style:
    sidebarBackground:    "#292F34"
    sidebarText:          "#FFFFFF"
    sidebarTextSelect:    "#292F34"
-   sidebarTextHighlight: "#D35400"
+   sidebarTextHighlight: "#A7DD9A"
 
 ### SLIDESHOW
 #
