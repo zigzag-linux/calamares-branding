@@ -1,23 +1,23 @@
-Name:           calamares-branding-openSUSE
+Name:           calamares-branding-zigzag
 Version:        0
 Release:        0
 License:        GPL-3.0
 Group:          System/Base
-Summary:        openSUSE branding for Calamares installer
+Summary:        Zigzag branding for Calamares installer
 URL:            https://calamares.io
 Source0:        %{name}-%{version}.tar.gz
 
 BuildArch:      noarch
 Provides:       calamares-branding = %{version}
-Supplements:    packageand(calamares:branding-openSUSE)
 Conflicts:      otherproviders(calamares-branding)
 Requires:       calamares = %{version}
+Requires:       calamares-module-zigzag
 
 %description
 Calamares is an installer framework. By design it is very customizable,
 in order to satisfy a wide variety of needs and use cases.
 
-This package provides openSUSE branding for %{name}.
+This package provides Zigzag branding for %{name}.
 
 %prep
 %setup
