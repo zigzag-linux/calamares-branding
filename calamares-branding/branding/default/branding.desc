@@ -35,6 +35,18 @@ windowExpanding:    normal
 # in CalamaresUtilsGui, 800x520.
 windowSize: 800px,520px
 
+# Placement of Calamares window. Either "center" or "free".
+# Whether "center" actually works does depend on the window
+# manager in use (and only makes sense if you're not using
+# *windowExpanding* set to "fullscreen").
+windowPlacement: center
+
+# Kind of sidebar (panel on the left, showing progress).
+#  - "widget" or unset, use traditional sidebar (logo, items)
+#  - "none", hide it entirely
+#  - "qml", use sidebar.qml from branding folder
+sidebar: widget
+
 # These are strings shown to the user in the user interface.
 # There is no provision for translating them -- since they
 # are names, the string is included as-is.
@@ -63,11 +75,11 @@ windowSize: 800px,520px
 strings:
     productName:         "@{NAME}"
     shortProductName:    Generic
-    version:             2017.8 LTS
-    shortVersion:        2017.8
-    versionedName:       Generic GNU/Linux 2017.8 LTS "Soapy Sousaphone"
-    shortVersionedName:  Generic 2017.8
-    bootloaderEntryName: Generic
+    version:             2020.2 LTS
+    shortVersion:        2020.2
+    versionedName:       Fancy GNU/Linux 2020.2 LTS "Turgid Tuba"
+    shortVersionedName:  FancyGL 2020.2
+    bootloaderEntryName: FancyGL
     productUrl:          https://calamares.io/
     supportUrl:          https://github.com/calamares/calamares/issues
     knownIssuesUrl:      https://calamares.io/about/
