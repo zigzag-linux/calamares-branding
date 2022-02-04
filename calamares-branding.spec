@@ -11,7 +11,6 @@ BuildArch:      noarch
 Provides:       calamares-branding = %{version}
 Conflicts:      otherproviders(calamares-branding)
 Requires:       calamares = %{version}
-Requires:       calamares-module-zigzag
 
 %description
 Calamares is an installer framework. By design it is very customizable,
